@@ -1,11 +1,9 @@
-export default function sum(a,b) {
-    return a + b;
-}
+// eslint-disable-next-line import/no-extraneous-dependencies
+import 'regenerator-runtime/runtime';
 
-import "regenerator-runtime/";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-import React from "react";
-import  ReactDOM  from "react-dom";
-
-
-ReactDOM.render(<App/>,document.getElementById('app'));
+// eslint-disable-next-line react/jsx-filename-extension
+ReactDOM.render(<App />, document.getElementById('app'));
