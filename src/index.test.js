@@ -13,4 +13,10 @@ describe('index', () => {
         //assert - проверить 
         expect(sum(1,2)).toBe(3);
     })
-})
+}),
+
+describe("index", () => {
+    it("should pass",()=> {
+     expect(true).toBe(true);
+    });
+});
