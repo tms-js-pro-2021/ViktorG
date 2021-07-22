@@ -38,7 +38,9 @@ function LoginPage() {
         },
       }).then(res => {
         if (res.status === 200) push('/');
-        
+        else {
+          res.text().then(str=> alert(str))
+        }
       });
 
       formik.resetForm();
