@@ -1,8 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AppContext from './AppContext';
 import LoginPage from './LoginPage';
-
 
 export default function App() {
   return (
@@ -12,7 +11,6 @@ export default function App() {
           <Route path="/login">
             <LoginPage />
           </Route>
-          
           <Route>
             404 not found <Link to="/login">login</Link>
           </Route>
