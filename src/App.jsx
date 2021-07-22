@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import AppContext from './AppContext';
 import LoginPage from './LoginPage';
 
+
 export default function App() {
   return (
     <AppContext>
@@ -11,9 +12,7 @@ export default function App() {
           <Route path="/login">
             <LoginPage />
           </Route>
-          <Route path="/login2">
-            <LoginPage2 />
-          </Route>
+          
           <Route>
             404 not found <Link to="/login">login</Link>
           </Route>
