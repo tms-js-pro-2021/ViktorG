@@ -7,11 +7,7 @@
     "test:watch": "jest --watch",
     "start": "webpack serve --mode development",
     "build": "webpack build --mode production",
-<<<<<<< HEAD
     "lint": "eslint ./scc/*"
-=======
-    "lint": "eslint"
->>>>>>> da71e6325726ff93db1dc45a550837dcd65431d5
   },
   "repository": {
     "type": "git",
